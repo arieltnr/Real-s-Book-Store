@@ -1,0 +1,93 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-box-sizing:border-box;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+ul,ol {
+	list-style-type: none;
+}
+
+body {
+	background-color: #0273c7;
+	font-family: 'cambria', sans-serif;
+}
+
+@media (min-width:768px){
+	.container {
+		width:900px;
+	}
+
+}
+.container {
+	margin:10px auto;
+	position: relative;
+	overflow: hidden;
+}
+.page-title {
+	margin:17px auto;
+	text-align: center;
+	color:#fff;
+	font-size: 17px;
+}
+.page-title h1 {
+	font-size:40px;
+	line-height: 1;
+}
+.page-title a{
+	color:#ff7777;
+	text-decoration: none;
+}
+.page-title a:hover{
+	text-decoration: underline;
+	color: #ff3333;
+}
+
+@media (min-width: 768px) {
+	.ac-form{
+		width:370px;
+		margin:100px auto; 
+	}
+}
+.ac-form .search-input, .ac-form .search-submit {
+	padding:15px;
+	display: inline-block;
+	border:0;
+	font-size: 15px;
+	font-family: 'cambria', serif;
+}
+.ac-form .search-input:focus, .ac-form .search-submit:focus {
+	outline: none;
+}
+.ac-form .search-input {
+	width: 80%;
+}
+.ac-form .search-submit {
+	width: 20%;
+	background-color: #FF3337;
+	cursor: pointer;
+	color:#fff;
+}
+
+/*  Styling Data sugesti */
+
+ul.ui-autocomplete {
+	width: auto;
+	border:none;
+}
+ul.ui-autocomplete li.ui-menu-item {
+	font-weight: 100 !important;
+	font-size: 17px;
+	padding:10px;
+}
+ul.ui-autocomplete li.ui-menu-item:hover {
+	background-color: #333;
+	color:#fff;
+	border:0;
+	font-weight: 100 !important;
+}
